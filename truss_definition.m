@@ -11,7 +11,7 @@ collect_data
     
 %  by 2 matrix, with each row containing the joint numbers that are
 % connected by each truss.
-    trusses = 0;
+    trusses = [1 2; 2 3; 2 4; 3 4];
     
     
 %  4 by 2 matrix. Each row contains one reaction force, with the
